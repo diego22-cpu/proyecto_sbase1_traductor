@@ -6,7 +6,7 @@ Este proyecto implementa un **traductor de lengua de señas a texto**, utilizand
 ## 🏫 Información del Curso
 - **Universidad:** Universidad Autónoma de Tamaulipas  
 - **Materia:** Programación de Sistemas de Base 1  
-- **Semestre:** Primer semestre de 2025  
+- **Semestre:** octavo semestre de 2025  
 - **Profesor:** Muñoz Quintero Dante Adolfo  
 - **Integrantes del Equipo:**  
   - Felipe García Juan Diego  
