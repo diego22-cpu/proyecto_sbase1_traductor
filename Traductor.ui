@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1314</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::PreventContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>TRADUCTOR SEÑAS--TEXTO</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #76644c;;</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>23</width>
+    <height>24</height>
+   </size>
+  </property>
+  <property name="animated">
+   <bool>false</bool>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>40</y>
+      <width>491</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Downloads/señas.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+    <property name="indent">
+     <number>-8</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="a">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>170</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>170</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="c">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>170</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="d">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>170</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="e">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>170</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>E</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="f">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>170</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="g">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>170</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>G</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="h">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>290</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>H</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="i">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>290</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>I</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="j">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>290</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>J</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="k">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>290</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>k</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_entrada">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>90</y>
+      <width>351</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:16pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>40</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>TEXTO FUENTE </string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>330</y>
+      <width>201</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cascadia Mono SemiBold</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>TEXTO TRADUCIDO</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="text_salida">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>400</y>
+      <width>351</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:16pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_traducir">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>270</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>TRADUCIR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="l">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>290</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>L</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="m">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>290</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="n">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>290</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>N</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="o">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>400</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>O</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="p">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>400</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>P</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="q">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>400</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>Q</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="r">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>400</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>R</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="s">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>400</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="t">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>400</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>T</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="u">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>400</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>U</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="v">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>520</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>V</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="w">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>520</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>W</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="x">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>520</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="y">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>520</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>Y</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="z">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>520</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>Z</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="espacio">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>580</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>espacio</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_limpiar">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>570</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>LIMPIAR</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>30</y>
+      <width>401</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Downloads/semanas señas.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LUNES">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>170</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>LUNES</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MARTES">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>170</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>MARTES</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MIERCOLES">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>170</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>MIERCOLES</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="JUEVES">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>350</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>JUEVES</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="VIERNES">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>350</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>VIERNES</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SABADO">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>350</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>SABADO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DOMINGO">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>530</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>DOMINGO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DIA">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>530</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>DIA</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SEMANA">
+    <property name="geometry">
+     <rect>
+      <x>1180</x>
+      <y>530</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>SEMANA</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_ayuda">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>570</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dfd2cb; </string>
+    </property>
+    <property name="text">
+     <string>AYUDA</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
